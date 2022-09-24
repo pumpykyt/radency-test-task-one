@@ -1,0 +1,71 @@
+html, body{
+    margin: 0;
+}
+
+.main{
+    min-height: auto;
+    background-color: white;
+}
+
+.tasks-wrapper{
+    margin-top: 100px;
+    padding-left: 10%;
+    padding-right: 10%;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.task-context{
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    background-color: darkmagenta;
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.task{
+    border-radius: 5px;
+    display: grid;
+    background-color: gray;
+    grid-template-columns: repeat(6, 1fr);
+    color: white;
+    font-weight: medium;
+    font-size: 24px;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.btn-edit{
+    background-color: orange;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px 15px;
+    font-size: 12px;
+    border: none;
+}
+
+.btn-archive{
+    background-color: green;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px 15px;
+    font-size: 12px;
+    border: none;
+}
+
+.btn-delete{
+    background-color: red;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    padding: 5px 15px;
+    font-size: 12px;
+    border: none;
+}
